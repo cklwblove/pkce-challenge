@@ -11,6 +11,7 @@ export default defineConfig({
   clean: true,
   splitting: false,
   minify: true,
+  globalName: 'pkceChallenge',
   banner: {
     js: `/* ${N}* ${pkg.name} ${
       N}* @Version: ${pkg.version}${

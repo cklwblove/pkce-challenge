@@ -20,6 +20,9 @@ import pkceChallenge from 'pkce-challenge'
 const pkceChallenge = require("pkce-challenge").default;
 
 pkceChallenge();
+
+// or iffe
+const challenge = pkceChallenge.default(); 
 ```
 
 gives something like:
